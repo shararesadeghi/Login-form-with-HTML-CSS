@@ -18,7 +18,7 @@ body{
     background-color: #ecf0f3;
     border-radius: 40px;
     width: 430px;
-    height: 700px;
+    height: 640px;
     padding: 60px 35px 35px 35px;
     box-shadow: 13px 13px 20px #cbced1,
     -13px -13px 20px #ffffff ;
@@ -49,6 +49,7 @@ body{
 }
 
 .fields input{
+    outline: none;
     border:none;
     background: none;
     font-size: 18px;
@@ -79,9 +80,21 @@ body{
     cursor: pointer;
     box-shadow: 3px 3px 8px #b1b1b1,
     -3px -3px 8px #fff;
+    transition: all 0.3s ease-in;
 }
 
 .login-button:hover{
     background: blue;
+}
+
+.link{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.link a{
+    text-decoration: none;
+    color: #aaa;
+    font-size: 15px;
 }
 
